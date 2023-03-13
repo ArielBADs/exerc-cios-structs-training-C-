@@ -1,0 +1,50 @@
+Ash Ketchum é um grande treinador Pokémon e após milhares de batalhas desenvolveu um método infalível para escolherqual Pokémon mais efetivo em batalha.
+Seu método consiste em calcular um fator vantagem subtraindo o ataque de seu Pokémon pela defesa de seu inimigo. Porém,
+é importante notar que certos tipos de Pokémon possuem vantagem contra outros.
+Isso significa que quando o tipo de um Pokémon for efetivo em relação a outro seu ataque aumentará em 50%.
+
+
+Como esse método envolve contas demais para um garoto de 12 anos,
+Ash pediu para você atualizar sua pokédex com uma função que liste os seus pokémon do
+mais ao menos efetivo de acordo com o fator vantagem.
+
+
+Água é efetivo contra fogo.
+Grama é efetivo contra água.
+Fogo é efetivo contra grama.
+
+Obs: Em caso de vantagens iguais ordene por ordem alfabética.
+Formato de entrada
+
+Uma linha contendo nome, tipo, ataque e defesa do inimigo
+A quantidade n de pokémons que Ash possui
+N pokemons e seus respectivos nomes, tipos, ataques e defesas
+Formato de saída
+
+Todos os Pokémon de Ash em ordem decrescente do fator vantagem.
+
+Exemplos de:
+
+Entrada
+
+Squirtle agua 5 8
+2
+Charmander fogo 9 4
+Bulbassauro grama 6 7
+
+Saída
+
+1. Bulbassauro
+2. Charmander
+
+Entrada
+
+Bulbassauro grama 6 7
+2
+Squirtle agua 5 8
+Charmander fogo 9 4
+
+Saída
+
+1. Charmander
+2. Squirtle
