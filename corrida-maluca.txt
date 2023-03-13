@@ -1,1 +1,44 @@
-P
+Para o problema:
+
+Chegou a hora da tão esperada corrida maluca do CIn e, infelizmente, você ainda não conseguiu montar o seu carro! Porém, para a sua sorte, ainda há algumas peças sobrando para que você possa construir a sua caranga e participar do evento. Um carro precisa ter necessariamente um Motor, um jogo de rodas e uma lataria. Como o seu dinheiro é limitado, você precisa comprar as peças que tragam a maior performance para o seu veículo enquanto gastando o mínimo possível.
+
+Formato de entrada
+
+A entrada consistirá em 2 inteiros, que representam o seu dinheiro e o número de peças disponíveis. Após isso, as peças deverão ser lidas no formato string tipo  int valor  int performance. Exemplo:
+
+Motor 100 10
+
+Onde o tipo motor será representado por Motor, o jogo de rodas por Roda (só precisa de 1) e a lataria por Lataria.
+
+Formato de saída
+
+Caso falte alguma peça para o seu carro (por falta de dinheiro ou indisponibilidade do tipo de peça), retorne Nao foi possivel construir uma caranga...
+
+Do contrário, imprima Minha nave tem uma performance de x pontos, onde x é a soma das performances de cada peça. Se sobrar dinheiro, imprima E ainda me sobraram y mangos!, sendo y o dinheiro restante.
+
+Exemplos de:
+
+Entrada
+
+100 2
+
+Motor 10 10
+Roda 10 10
+
+Saída
+
+Nao foi possivel construir uma caranga...
+
+Entrada
+
+1000 4
+
+Motor 10 10
+Roda 10 10
+Lataria 10 10
+Motor 1000 30
+
+Saída
+
+Minha nave tem uma performance de 30 pontos
+E ainda me sobraram 970 mangos!
